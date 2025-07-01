@@ -1,0 +1,2 @@
+# KemonoImagePackingAssistant
+Kemono图片打包助手，一个Chrome浏览器插件，可实现一键打包下载Kemono作品页中的图片。
