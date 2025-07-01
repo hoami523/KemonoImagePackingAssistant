@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Kemono图片打包助手",
+  "version": "1.0.0",
+  "description": "自动获取kemono.su页面中的所有图片并打包下载",
+  "permissions": [
+    "activeTab",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://kemono.su/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://kemono.su/*/user/*"],
+      "js": ["lib/jszip.js", "content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+} 

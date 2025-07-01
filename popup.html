@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Kemono图片打包助手</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="image-pack-menu">
+    <div class="menu-title">Kemono图片打包助手</div>
+    <button class="download-btn" id="downloadBtn">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+      </svg>
+      打包下载图片
+    </button>
+    <div class="progress-container" id="progressContainer">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <div class="progress-text" id="progressText">准备中...</div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
