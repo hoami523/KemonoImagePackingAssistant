@@ -1,18 +1,18 @@
 {
   "manifest_version": 3,
   "name": "Kemono图片打包助手",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "自动获取kemono.su页面中的所有图片并打包下载",
   "permissions": [
     "activeTab",
     "downloads"
   ],
   "host_permissions": [
-    "https://kemono.su/*"
+    "https://kemono.cr/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://kemono.su/*/user/*"],
+      "matches": ["https://kemono.cr/*/user/*"],
       "js": ["lib/jszip.js", "content.js"],
       "css": ["content.css"]
     }
