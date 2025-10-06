@@ -325,7 +325,7 @@
 
   // 初始化
   function init() {
-    if (!window.location.href.includes('kemono.su/')) return;
+    if (!window.location.href.includes('kemono.cr/')) return;
     const container = createFloatingIcon();
     initDragAndDrop(container);
     document.getElementById('downloadBtn').addEventListener('click', () => packAndDownloadImages(true));
