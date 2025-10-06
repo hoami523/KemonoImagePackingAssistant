@@ -122,6 +122,10 @@ Kemono图片打包助手/
 - 支持浮动图标拖拽
 - 适配kemono.su网站结构
 
+
+### v1.0.1
+- kemono域名更新为kemono.cr，导致插件无法使用，现已修复。
+
 ## 许可证
 
 MIT License 
